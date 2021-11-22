@@ -3,6 +3,8 @@
 ```
 git clone https://github.com/itiligator/fab.git
 
+cd fab
+
 docker build -t fab .
 
 docker run -d -p 8080:8080 fab
